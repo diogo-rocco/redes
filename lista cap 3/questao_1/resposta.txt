@@ -1,0 +1,1 @@
+Como a alteração que queríamos fazer era para o cliente poder enviar multiplas mensagens para o servidor antes de encerrar sua execução, só precisamos fazer alterações no cliente

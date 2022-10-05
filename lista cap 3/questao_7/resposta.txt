@@ -1,0 +1,4 @@
+não seria necessário fazer nenhuma alteração no servidor, pois o método bind() serve para associarmos um socket à porta que ele vai estar ouvindo/recebendo mensagens.
+Porém no UDP, quando o cliente envia uma mensagem para o servidor, ele envia também seu endereço e sua porta. Quando definimos explícitamente a porta do cliente, a 
+única coisa que muda é que estamos sempre associando o cliente à uma porta fixa. Essa abordagem pode causar problemas num cenário onde, por um acaso, a porta selecionada
+já esteja em uso, logo não conseguiriamos associar o cliente a porta.
